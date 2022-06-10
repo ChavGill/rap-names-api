@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const PORT = 8000
 
+app.use(cors())
+
 const rappers = {
     '21 savage': {
     'birthName': 'Shéyaa Bin Abraham-Joseph' ,
